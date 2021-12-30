@@ -1,9 +1,9 @@
 ---
 - name: Excecute Windows Shell
   gather_facts: false
-  hosts: all
-  
-    tasks:
+  hosts: 192.168.11.81
+
+  tasks:
     - name: exec command
       win_shell: C:\work\ansible-test.bat
       register: return_from_shell1
