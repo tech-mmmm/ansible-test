@@ -1,3 +1,4 @@
+---
 - name: Excecute Windows Shell
   gather_facts: false
   hosts: all
