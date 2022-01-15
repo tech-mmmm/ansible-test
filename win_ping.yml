@@ -1,6 +1,6 @@
 ---
 - name: Test win_ping
-  hosts: 192.168.11.81
+  hosts: all
 
   tasks:
     - name: Test win_ping
